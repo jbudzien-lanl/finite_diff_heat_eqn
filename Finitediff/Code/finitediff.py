@@ -1,6 +1,6 @@
 # 3456789123456789212345678931234567894123456789512345678961234567897123456789
 class Finitediffcalc:
-    """
+    r"""
     Original source: http://jkwiens.com/heat-equation-using-finite-difference/
     Edited by: J. Budzien, 10 Aug 2017
 
