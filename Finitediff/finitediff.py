@@ -1,7 +1,18 @@
 # 3456789123456789212345678931234567894123456789512345678961234567897123456789
+r"""
+    Solving the heat equation using central difference and Crank-Nicholson
+
+"""
+import scipy as sc
+import scipy.sparse as sparse
+import scipy.sparse.linalg
+import numpy as np
+import pylab as pl
+import matplotlib.pyplot as plt
+
 class Finitediffcalc:
     r"""
-    Original source: http://jkwiens.com/heat-equation-using-finite-difference/
+    Original source: http://jkwiens.com/heat-equation-using-finite-difference
     Edited by: J. Budzien, 10 Aug 2017
 
 	This program solves the heat equation
@@ -15,15 +26,9 @@ class Finitediffcalc:
 	The program solves the heat equation using a finite difference method
 	where we use a center difference method in space and Crank-Nicolson 
 	in time.
+
     """
 
-    import scipy as sc
-    import scipy.sparse as sparse
-    import scipy.sparse.linalg
-    import numpy as np
-    import pylab as pl
-    import matplotlib.pyplot as plt
-     
     # Number of internal points
     N = 200
      
@@ -72,5 +77,6 @@ class Finitediffcalc:
     def plotFunction( frame ):
     	plt.plot(x, data[int(NumOfTimeSteps*frame/(FPS*MovieLength))] )
     	plt.axis((0,1,0,10.1))
-     
+
+
 
