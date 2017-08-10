@@ -73,3 +73,4 @@ class Finitediffcalc:
     	plt.plot(x, data[int(NumOfTimeSteps*frame/(FPS*MovieLength))] )
     	plt.axis((0,1,0,10.1))
      
+
