@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 
 class Finitediffcalc:
     r"""
-    Original source: http://jkwiens.com/heat-equation-using-finite-difference
-    Edited by: J. Budzien, 10 Aug 2017
+    |  Original source: http://jkwiens.com/heat-equation-using-finite-difference/    
+    |  Edited by: J. Budzien, 10 Aug 2017
 
     This program solves the heat equation
         u_t = u_xx
