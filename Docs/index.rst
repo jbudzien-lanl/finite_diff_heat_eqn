@@ -9,12 +9,19 @@ Welcome to Finite Difference Method's documentation!
 Contents:
 
 .. toctree::
+   :hidden:
+
+   self
+
+
+.. toctree::
    :maxdepth: 2
 
    userguide
    developerguide
    theoryguide
    finitediff
+   tests
 
 Indices and tables
 ==================

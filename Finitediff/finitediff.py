@@ -38,6 +38,10 @@ class Finitediffcalc:
 
     """
 
+    def test_funct():
+       r"""This is inside the test function"""
+       pass
+
     # Number of internal points
     N = 200
 

@@ -1,0 +1,12 @@
+********************
+<Name of Section Here>
+********************
+
+<Brief description goes here.>
+
+.. toctree::
+   :glob:
+
+   <directory>/*
+
+
