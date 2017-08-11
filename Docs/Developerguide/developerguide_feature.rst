@@ -1,9 +1,9 @@
-Add a new feature to the code
+Add a New Feature to the Code
 =============================
 
  #. Design the feature at a high level
  #. Design a test for the details.
- #. Follow the instructions at (zzz) to add the test to the test bank.
+ #. Follow the instructions at :ref:`testsuite`.
  #. Update the code documentation for feature and test (see zzz).
  #. Iterate:
 
@@ -11,7 +11,7 @@ Add a new feature to the code
       #. Update documentation in code
       #. Edit code
  
- #. Update the userguide, programming guide, and theory guide as necessary.
+ #. Update the User Guide, Programming Guide, and Theory Guide as necessary.
 
       
 

@@ -8,5 +8,10 @@ This chapter explains how to modify the code.
    :glob:
 
    Developerguide/developerguide_intro.rst
+   Developerguide/developerguide_feature.rst
+   Developerguide/developerguide_test.rst
+   Developerguide/developerguide_doc.rst
+   Developerguide/developerguide_report_struct.rst
+   Developerguide/developerguide_report_interpret.rst
    Developerguide/*
 
