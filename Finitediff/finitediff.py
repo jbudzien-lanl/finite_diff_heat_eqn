@@ -1,6 +1,21 @@
 # 3456789123456789212345678931234567894123456789512345678961234567897123456789
 r"""
     Solving the heat equation using central difference and Crank-Nicholson
+    ======================================================================
+
+    This program solves the heat equation
+
+        :math:`{u_t = u_xx}`
+
+    with Dirichlet boundary conditions (BCs)
+
+        :math:`{u(0,t) = u(1,t) = 0}`
+
+    with the initial condition (IC)
+
+        :math:`{u(x,0) = 10*sin(\pi x)}`
+
+    over the domain :math:`{x = [0, 1]}`
 
 """
 import scipy as sc
@@ -16,13 +31,6 @@ class Finitediffcalc:
     |  Original source: http://jkwiens.com/heat-equation-using-finite-difference/    
     |  Edited by: J. Budzien, 10 Aug 2017
 
-    This program solves the heat equation
-        u_t = u_xx
-    with dirichlet boundary condition
-        u(0,t) = u(1,t) = 0
-    with the Initial Conditions
-        u(x,0) = 10*sin( pi*x )
-    over the domain x = [0, 1]
 
     The program solves the heat equation using a finite difference method
     where we use a center difference method in space and Crank-Nicolson
